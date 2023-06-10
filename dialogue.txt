@@ -1,0 +1,8 @@
+THUD!
+*You watch as a bedpan falls, spilling its contents on the ground*
+Fiddlesticks! Look at this mess!
+*You grab your mop and immediately clean up. Your name tag falls on the ground in the process and you reach down to pick it up* 
+**Prompt user to type in name**
+Hi! Your name is *name*. You have been the head janitor at *hospital name* for 5 years. 
+However...you are also the only janitor ever since the hospital laid off the other janitors. 
+There has been a lot of tension and you are very stressed about keeping your job. 
