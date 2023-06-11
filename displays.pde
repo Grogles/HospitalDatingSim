@@ -36,6 +36,8 @@ void questionSetup(String question) {
 //Each screen
 void intro() {
   basicSetup(); 
+  imageMode(CORNER);
+  image(intro, 0, 0, 1800, 800);
   writeText(sceneOneDialogue[0]); 
 }
 
@@ -220,6 +222,6 @@ void finalScene() {
   questionSetup("What should you do?"); 
   image(ceoSpecial, 0, 0, 1800, 750); 
   textAlign(CENTER);  
-  text("Reach for his hand\nfor support", qButX1 + 175, qButY + 55);
+  text("Reach for his hand\nfor support", qButX1 + 175, qButY + 50);
   text("Ignore him", qButX2 + 175, qButY + 55); 
 }
