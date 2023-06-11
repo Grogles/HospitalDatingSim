@@ -198,11 +198,13 @@ void decision() {
   //CEO Special Scene 
 void paSceneOne() {
   basicSetup();
+  image(ceoSpecial, 0, 0, 1800, 800); 
   writeText(paOneDialogue[0]); 
 }
 
 void paQuestion() {
   questionSetup("What do you do?"); 
+  image(ceoSpecial, 0, 0, 1800, 750); 
   textAlign(CENTER);
   text("Leave and hide\nsomewhere else", qButX1 + 175, qButY + 45); 
   text("Stay with him", qButX2 + 175, qButY + 55); 
@@ -210,11 +212,13 @@ void paQuestion() {
 
 void paSceneTwo() {
   basicSetup(); 
+  image(ceoSpecial, 0, 0, 1800, 800); 
   writeText(paTwoDialogue[0]); 
 }
 
 void finalScene() {
   questionSetup("What should you do?"); 
+  image(ceoSpecial, 0, 0, 1800, 750); 
   textAlign(CENTER);  
   text("Reach for his hand\nfor support", qButX1 + 175, qButY + 55);
   text("Ignore him", qButX2 + 175, qButY + 55); 
