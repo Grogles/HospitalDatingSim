@@ -41,6 +41,7 @@ PImage ceoCafe;
 PImage cafDoctor;
 PImage cartNurse; 
 PImage patient; 
+PImage ceoSpecial; 
 
 void setup() {
   size(1800,1000);  
@@ -80,6 +81,7 @@ void setup() {
   cafDoctor = loadImage("cafeteria/cafDoctor.png"); 
   cartNurse = loadImage("cartScene/cartNurse.png"); 
   patient = loadImage("patientRoom/patient.png"); 
+  ceoSpecial = loadImage("paScene/ceoSpecial.png");
   
   //Starting screen 
   fill(255); 
@@ -474,6 +476,7 @@ void mousePressed() {
       paQuestion = false; 
       paScreenTwo = true; 
       basicSetup(); 
+      image(ceoSpecial, 0, 0, 1800, 800);
       writeText("*He rolls his eyes, loosens his tie,*");
       paNum += 4;
     }
