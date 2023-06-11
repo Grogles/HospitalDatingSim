@@ -84,3 +84,37 @@ void cafOutside() {
   basicSetup(); 
   writeText(cafOutsideDialogue[0]); 
 }
+
+void messScene() {
+  fill(0); 
+  rect(0, 0, 1800, 1000); 
+  
+  //Option buttons 
+  fill(255, 74, 152); 
+  rect(400, 850, 250, 75);
+  rect(1300, 850, 250, 75);
+  
+  fill(0); 
+  textSize(40);
+  text("Lobby", 455, 905); 
+  text("Room 2324", 1330, 910);
+  
+  fill(255); 
+  textAlign(CENTER); 
+  textSize(50); 
+  text("You are informed that you need to clean up messes at the lobby and in Room 2324.\nWhere do you want to go first?", width/2, 600);
+}
+
+void cartScene() {
+  basicSetup(); 
+  writeText(cartDialogue[0]); 
+}
+
+void patientRoomOne() {
+  basicSetup(); 
+  writeText(patientRoomOneDialogue[0]); 
+}
+
+void patientQuestion() {
+  
+}
