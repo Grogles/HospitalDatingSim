@@ -37,6 +37,7 @@ Boolean finalScreen = false;
   //Images
 PImage heart; 
 PImage plus; 
+PImage intro; 
 PImage ceoCafe; 
 PImage cafDoctor;
 PImage cartNurse; 
@@ -76,7 +77,8 @@ void setup() {
   heart = loadImage("heart.png"); 
   heart.resize(100, 100); 
   plus = loadImage("redPlus.png");
-  plus.resize(100, 100); 
+  plus.resize(100, 100);
+  intro = loadImage("intro/intro.png");
   ceoCafe = loadImage("cafe/ceoCafe.png"); 
   cafDoctor = loadImage("cafeteria/cafDoctor.png"); 
   cartNurse = loadImage("cartScene/cartNurse.png"); 
@@ -501,3 +503,4 @@ void mousePressed() {
     }
   }
 }
+
